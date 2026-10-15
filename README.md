@@ -1,33 +1,32 @@
 # Number Guessing Game
 
-A simple number guessing game built with Python as a beginner programming project.
+A simple number guessing game written in Python as a beginner programming project.
 
-## About the Project
+## About
 
-In this game, the computer randomly selects a number between 1 and 100. The player has 7 attempts to guess the correct number.
+The computer randomly selects a number between 1 and 100. The player has 7 attempts to guess the correct number.
 
-After each incorrect guess, the game provides a hint to help the player get closer to the answer.
-
-This project was created as part of my Python practice while learning programming fundamentals.
+After each incorrect guess, the game provides a hint indicating whether the guess was too high or too low.
 
 ## Features
 
 - Random number generation
-- Limited attempts (7 guesses)
+- 7 attempts to guess the correct number
 - "Too High" and "Too Low" hints
-- Input validation
-- Handles invalid input
-- Reveals the correct number when the player loses
+- Input validation for numbers outside the allowed range
+- Error handling for invalid integer input
+- Displays the correct number if the player runs out of attempts
+- Shows the remaining attempts after incorrect guesses
 
 ## Requirements
 
 - Python 3
 
-No external libraries are required.
+No external libraries are required. The game uses Python's built-in `random` module.
 
 ## How to Run
 
-1. Clone or download this repository.
+1. Download or clone this repository.
 2. Open a terminal in the project directory.
 3. Run the following command:
 
@@ -39,7 +38,7 @@ python main.py
 
 - Variables and data types
 - `for` and `while` loops
-- Conditional statements
+- Conditional statements (`if`, `elif`, `else`)
 - `break` and `continue`
 - Exception handling with `try` and `except`
 - User input validation
@@ -47,17 +46,11 @@ python main.py
 
 ## Learning Resource
 
-This project was inspired by the Number Guessing Game exercise on GeeksforGeeks:
+This project was created while practicing the Number Guessing Game exercise from GeeksforGeeks.
 
 [Number Guessing Game in Python – GeeksforGeeks](https://www.geeksforgeeks.org/python/number-guessing-game-in-python/)
 
-I used this exercise to practice Python fundamentals and implement the game logic myself.
-
-## Future Improvements
-
-- Add a replay feature
-- Keep track of previous guesses
-- Add difficulty levels
+I used this exercise to practice Python fundamentals and develop my understanding of game logic.
 
 ## Author
 
